@@ -4,7 +4,10 @@
   "description": "TSLint rules targeting NG-ZORRO",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "test",
+    "clean": "rimraf dist",
+    "postbuild": "",
+    "build": "tsc -p tsconfig.json"
   },
   "repository": {
     "type": "git",
@@ -23,7 +26,11 @@
   },
   "homepage": "https://github.com/hsuanxyz/nz-tslint-rules#readme",
   "devDependencies": {
+    "@types/node": "^12.12.14",
+    "ng-zorro-antd": "^8.5.2",
+    "rimraf": "^3.0.0",
     "tslint": "^5.20.1",
+    "tsutils": "^3.17.1",
     "typescript": "^3.7.3"
   }
 }

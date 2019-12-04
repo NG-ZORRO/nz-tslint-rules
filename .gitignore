@@ -1,5 +1,6 @@
 node_modules
 dist
+debug
 .idea
 npm-debug.log
 .vscode

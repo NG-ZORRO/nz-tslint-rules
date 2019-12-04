@@ -8,7 +8,8 @@
     "removeComments": true,
     "lib": ["es6", "es2015", "dom"],
     "noLib": false,
-    "outDir": "./dist"
+    "outDir": "./dist",
+    "types": ["node"]
   },
   "files": [
     "src/index.ts"

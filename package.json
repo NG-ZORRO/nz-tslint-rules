@@ -1,0 +1,29 @@
+{
+  "name": "nz-tslint-rules",
+  "version": "0.0.1",
+  "description": "TSLint rules targeting NG-ZORRO",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hsuanxyz/nz-tslint-rules.git"
+  },
+  "keywords": [
+    "lint",
+    "rules",
+    "tslint",
+    "NG-ZORRO"
+  ],
+  "author": "Hsuan Lee <hsuangm@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hsuanxyz/nz-tslint-rules/issues"
+  },
+  "homepage": "https://github.com/hsuanxyz/nz-tslint-rules#readme",
+  "devDependencies": {
+    "tslint": "^5.20.1",
+    "typescript": "^3.7.3"
+  }
+}

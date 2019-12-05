@@ -19,8 +19,6 @@ $ yarn add nz-tslint-rules -D
 | -------- | ------------ |
 | 8.x | 0.800.x |
 
-- ng-zorro-antd@8.x => nz-tslint-rules@0.800.x
-
 # Rules
 
 This repository provides the following rules:
@@ -54,7 +52,7 @@ import { NzToolTipModule } from 'ng-zorro-antd/tooltip';
 import { NzNoAnimationModule } from 'ng-zorro-antd/core';
 ```
 
-*Note: * This rule does not applicable if you use `import { NgZorroAntdModule } from 'ng-zorro-antd'`.
+*Note:* This rule does not applicable if you use `import { NgZorroAntdModule } from 'ng-zorro-antd'`.
 
 # Use
 

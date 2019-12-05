@@ -1,0 +1,6 @@
+{
+  "rules": {
+    "nz-secondary-entry-imports": true
+  },
+  "rulesDirectory": "../dist"
+}

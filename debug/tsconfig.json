@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "lib": ["es2015"],
+    "noEmit": true,
+    "paths": {
+      "ng-zorro-antd": ["../node_modules/ng-zorro-antd"]
+    },
+    "skipLibCheck": true,
+    "target": "es5"
+  },
+  "files": ["index.ts"]
+}

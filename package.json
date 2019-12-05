@@ -5,6 +5,9 @@
   "main": "index.js",
   "scripts": {
     "clean": "rimraf dist",
+    "copy:docs": "cp README.md dist",
+    "copy:package": "cp package.json dist",
+    "postbuild": "npm run copy:docs && npm run copy:package",
     "prebuild": "npm run clean",
     "build": "tsc -p src/tsconfig.json"
   },

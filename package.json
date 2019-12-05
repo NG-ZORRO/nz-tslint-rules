@@ -7,7 +7,7 @@
     "test": "test",
     "clean": "rimraf dist",
     "postbuild": "",
-    "build": "tsc -p tsconfig.json"
+    "build": "tsc -p src/tsconfig.json"
   },
   "repository": {
     "type": "git",
@@ -26,9 +26,14 @@
   },
   "homepage": "https://github.com/hsuanxyz/nz-tslint-rules#readme",
   "devDependencies": {
+    "@angular/core": "~8.2.10",
+    "@types/fs-extra": "^8.0.1",
     "@types/node": "^12.12.14",
+    "fs-extra": "^8.1.0",
+    "glob": "^7.1.6",
     "ng-zorro-antd": "^8.5.2",
     "rimraf": "^3.0.0",
+    "ts-node": "^8.5.4",
     "tslint": "^5.20.1",
     "tsutils": "^3.17.1",
     "typescript": "^3.7.3"

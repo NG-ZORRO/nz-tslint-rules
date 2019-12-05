@@ -10,8 +10,5 @@
     "noLib": false,
     "outDir": "./dist",
     "types": ["node"]
-  },
-  "files": [
-    "src/index.ts"
-  ]
+  }
 }

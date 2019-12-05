@@ -1,3 +1,6 @@
+[![npm version](https://badge.fury.io/js/nz-tslint-rules.svg)](https://badge.fury.io/js/nz-tslint-rules)
+[![Downloads](https://img.shields.io/npm/dt/nz-tslint-rules.svg)](https://img.shields.io/npm/dt/nz-tslint-rules.svg)
+
 # NG-ZORRO TSLint
 
 TSLint rules for NG-ZORRO.
@@ -9,6 +12,14 @@ $ npm i nz-tslint-rules -D
 # or
 $ yarn add nz-tslint-rules -D
 ```
+
+## Versions
+
+| NG-ZORRO | TSLint Rules |
+| -------- | ------------ |
+| 8.x | 0.800.x |
+
+- ng-zorro-antd@8.x => nz-tslint-rules@0.800.x
 
 # Rules
 

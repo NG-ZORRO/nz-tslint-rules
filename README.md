@@ -50,7 +50,7 @@ import { NzButtonModule } from 'ng-zorro-antd/button';
 import { NzCardModule } from 'ng-zorro-antd/card';
 import { NzTableModule } from 'ng-zorro-antd/table';
 import { NzToolTipModule } from 'ng-zorro-antd/tooltip';
-import { NzNoAnimationModule } from 'ng-zorro-antd/core';
+import { NzNoAnimationModule } from 'ng-zorro-antd/core/no-animation';
 ```
 
 *Note:* This rule does not applicable if you use `import { NgZorroAntdModule } from 'ng-zorro-antd'`.

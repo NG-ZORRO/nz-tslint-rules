@@ -18,6 +18,7 @@ $ yarn add nz-tslint-rules -D
 | NG-ZORRO | TSLint Rules |
 | -------- | ------------ |
 | 8.x | 0.800.x |
+| 9.x | 0.900.x |
 
 # Rules
 

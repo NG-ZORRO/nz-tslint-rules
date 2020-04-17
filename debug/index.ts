@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 
 import {
-  NzAddOnModule,
+  NzOutletModule,
   NzAlertModule as Alter,
   NzButtonModule,
   NZ_CONFIG,
@@ -12,11 +12,13 @@ import {
 
 import { NzNoAnimationModule  } from 'ng-zorro-antd';
 
+export type NotificationDataA = NotificationData
+
 @NgModule({
   declarations: [NzNotificationComponent],
   imports: [
     NzNoAnimationModule,
-    NzAddOnModule,
+    NzOutletModule,
     Alter,
     NzButtonModule
   ],

@@ -1,6 +1,6 @@
 {
   "name": "nz-tslint-rules",
-  "version": "0.900.1",
+  "version": "0.901.0",
   "description": "TSLint rules targeting NG-ZORRO",
   "main": "index.js",
   "scripts": {

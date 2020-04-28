@@ -247,10 +247,10 @@ mkdirp@^0.5.1:
   dependencies:
     minimist "0.0.8"
 
-ng-zorro-antd@^9.0.0:
-  version "9.0.1"
-  resolved "https://registry.yarnpkg.com/ng-zorro-antd/-/ng-zorro-antd-9.0.1.tgz#a6f8b50e53afca4a8b1a811d3c172572f56b6947"
-  integrity sha512-fTQU8+OQBEGU+AhzFUfIfuWkpP72tDUkpjzhQPYtHTWWiRe7/G2PNaYP4pSkG9yX3W9NALkcq+neoMGAES3pYw==
+ng-zorro-antd@9.1.0:
+  version "9.1.0"
+  resolved "https://registry.yarnpkg.com/ng-zorro-antd/-/ng-zorro-antd-9.1.0.tgz#83afda582f73b75f71836e9ad3f2a7444e205daa"
+  integrity sha512-eLi9rq4lfsHR8gZd1+o+9YA/HwB9MOSukB9nIuifFUZEv3zRRPbNx6jXZpXhcrb6HCgUeMujmi6P6w3acic4Zg==
   dependencies:
     "@angular/cdk" "^9.0.0"
     "@ant-design/icons-angular" "^9.0.0"

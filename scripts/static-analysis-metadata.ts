@@ -22,6 +22,23 @@ function analysis(libPath = 'node_modules/ng-zorro-antd', dist = 'data') {
         .forEach(k => {
           importMap[k] = importPath;
         });
+      if (Array.isArray(metaJSON.exports)) {
+        metaJSON.exports.forEach(item => {
+          if (item.export) {
+            item.export.forEach(exportItem => {
+              const { name, as } = exportItem;
+              if (name && name !== 'default') {
+                importMap[name] = importPath;
+              }
+
+              if (name === 'default' && as) {
+                importMap[as] = importPath;
+              }
+            });
+          }
+
+        });
+      }
     }
   });
 

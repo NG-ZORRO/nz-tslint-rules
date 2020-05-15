@@ -7,6 +7,7 @@
     "clean": "rimraf dist",
     "copy:docs": "cp README.md dist",
     "copy:package": "cp package.json dist",
+    "analysis": "ts-node scripts/static-analysis-metadata.ts",
     "postbuild": "npm run copy:docs && npm run copy:package",
     "prebuild": "npm run clean",
     "build": "tsc -p src/tsconfig.json"
@@ -33,7 +34,7 @@
     "@types/node": "^12.12.14",
     "fs-extra": "^8.1.0",
     "glob": "^7.1.6",
-    "ng-zorro-antd": "9.1.0",
+    "ng-zorro-antd": "9.1.2",
     "rimraf": "^3.0.0",
     "ts-node": "^8.5.4",
     "tslint": "^5.20.1",

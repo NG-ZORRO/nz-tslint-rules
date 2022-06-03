@@ -29,7 +29,7 @@
   },
   "homepage": "https://github.com/hsuanxyz/nz-tslint-rules#readme",
   "devDependencies": {
-    "@angular/core": "~9.1.2",
+    "@angular/core": "~11.0.5",
     "@types/fs-extra": "^8.0.1",
     "@types/node": "^12.12.14",
     "fs-extra": "^8.1.0",
